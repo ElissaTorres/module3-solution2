@@ -1,0 +1,171 @@
+body{
+	font-size: 20px
+	color: #000000;
+	background-color: #FFEBCD;
+	font-family: sans-serif;
+}
+
+/**HEADER **/
+#header-nav{
+	background-color: #FFFAF0
+	border-radius:0;
+	border:0;
+	top:0;
+	transition: top 0.3s;
+}
+.navbar-brand{
+	padding: 15px;
+}
+.navbar-brand h1{	/* FOOD, LLC*/
+	color:#87CEFA;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0px 0px 0px #000000;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.navbar-brand a:hover a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-toggle ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar-toggle ul li{
+float: left;
+width: 100%;
+height: 20px;
+line-height: 40px;
+text-align: center;
+
+}
+
+.navbar-toggle ul li a{
+	text-decoration: none;
+	display: block
+}
+
+.navbar-toggle ul li a:hover{
+	color:#61122f;
+}
+
+.navbar ul li ul li{
+	display: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+ }
+
+/*END HEADER*/
+
+/* JUMBOTRON/ MAIN CONTENT */
+.container .jumbotron{
+	vertical-align: center;
+}
+
+.container .jumbotron h2{
+	background-color: ;
+	font-size: 25px;
+	text-align: center;
+	color: #87CEFA;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0px 0px 0px #000000;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+#home-tiles{
+  margin-bottom: 30px;
+}
+
+.row {
+	width:100%;
+	text-align: center;
+ 	box-shadow: 0 0 30px #3F0C1F;
+  	border: 2px solid #3F0C1F;
+  	padding: 0px;
+}
+
+.container .row h3{
+	position: center;
+	text-align: center;
+	color: #000000;
+	box-sizing: border-box;
+	margin:0;
+	padding-bottom: 1px;
+}
+
+.container .row p{
+	text-align: center;
+	position: relative;
+	font-size: 1em;
+ 	top:0px;
+ 	margin: 15px;
+}
+/* END JUMBOTRON/ MAIN CONTENT */
+
+
+
+/********** Large devices only **********/
+@media(min-width: 1200px) {
+	.col-lg-12{
+		width: 100%;
+		float: center;
+
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
+#collapsable-nav{
+????
+}
+
+#collapsable-nav a{
+	font-size: 10px;}
+
+#collapsable-nav a span{
+font-size: 2px;
+	margin-right: 5px;	
+}
+
+.container .row h3{
+	margin-top: 5px;
+	padding:0;
+}
